@@ -128,7 +128,7 @@ menu:
   home: / || home
   指南: /guides/ || compass
   资料: /materials/ || book
-  其他: /others/ || asterisk
+  其他:
     tags: /tags/ || tags
     categories: /categories/ || th
     archives: /archives/ || archive
