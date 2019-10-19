@@ -126,10 +126,9 @@ scheme: Pisces
 # External url should start with http:// or https://
 menu:
   home: / || home
-  指南: /guides/ || compass
-  资料: /materials/ || book
-  其他: /misc/ || asterisk
-  #archives: /archives/ || archive
+  #指南: /guides/ || compass
+  #资料: /materials/ || book
+  archives: /archives/ || archive
   #tags: /tags/ || tags
   #categories: /categories/ || th
   #about: /about/ || user
@@ -253,8 +252,8 @@ excerpt_description: true
 # Automatically excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 100
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
