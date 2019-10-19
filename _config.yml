@@ -128,10 +128,10 @@ menu:
   home: / || home
   指南: /guides/ || compass
   资料: /materials/ || book
-  其他:
-    tags: /tags/ || tags
-    categories: /categories/ || th
-    archives: /archives/ || archive
+  其他: /misc/ || asterisk
+  #archives: /archives/ || archive
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
   #about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
