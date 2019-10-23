@@ -63,7 +63,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#009688"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -100,7 +100,7 @@ creative_commons:
   license: by-nc-sa
   sidebar: true
   post: false
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -201,7 +201,7 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -241,7 +241,7 @@ chat:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -330,8 +330,8 @@ tagcloud:
   # All values below are same as default, change them by yourself
   min: 12 # Minimun font size in px
   max: 30 # Maxium font size in px
-  start: "#ccc" # Start color (hex, rgba, hsla or color keywords)
-  end: "#111" # End color (hex, rgba, hsla or color keywords)
+  start: "#00BCD4" # Start color (hex, rgba, hsla or color keywords)
+  end: "#009688" # End color (hex, rgba, hsla or color keywords)
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 # Google Calendar
@@ -364,7 +364,7 @@ text_align:
 mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#B2EBF2"
 
 # Hide sticky headers and color the menu bar on Safari (iOS / macOS).
 safari_rainbow: false
